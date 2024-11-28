@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulangan Harian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <table align="center" cellspacing="0" cellpadding="8" class="tabel">
+            <thead class="container">
+                <tr>
+                    <th colspan="4" class="rainbow">Rainbow Cake Delivery Order</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Order Code</td>
+                    <td><input type="number" name="order" id="order"></td>
+                    <td>Price</td>
+                    <td><input type="number" name="price" id="price" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Choose Cake</td>
+                    <td>
+                        <select name="cupcake" id="cupcake">
+                            <option value="durian">Cup Cake Durian</option>
+                            <option value="mangga">Cup Cake Mangga</option>
+                            <option value="strawberry">Cup Cake Strawberry</option>
+                        </select>
+                    </td>
+                    <td>Sub Total</td>
+                    <td><input type="number" name="total" id="total" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Adddress</td>
+                    <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+                    <td>Shipping Cost</td>
+                    <td><input type="number" name="cost" id="cost" value="0"></td>
+
+                </tr>
+                <tr>
+                    <td>Destination</td>
+                    <td>
+                        <select name="tujuan" id="tujuan">
+                            <option value="bogor">Bogor</option>
+                            <option value="cibinong">Cibinong</option>
+                            <option value="depok">Depok</option>
+                        </select>
+                    </td>
+                    <td>Disc</td>
+                    <td><input type="text" name="" id="disc" value="0%"></td>
+                </tr>
+                <tr>
+                    <td>Purchase Amount</td>
+                    <td><input type="number" name="amount" id="amount" value="0"></td>
+                    <td>Disc Value</td>
+                    <td><input type="number" name="value" id="value" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Member</td>
+                    <td>
+                        <input type="checkbox" name="member" id="member">
+                        <label for="yes">Yes</label>
+                    <td>Grand Total</td>
+                    <td><input type="number" name="total" id="grandtotal" value="0"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="4"><button id="ulang" name="ulang">Ulang</button></th>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
